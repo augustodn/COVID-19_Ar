@@ -1,0 +1,11 @@
+# Git ignore Franco
+
+# files
+/configurate_env.txt
+/requirements.txt
+
+# folder
+/datasetsCovid
+/.vscode
+
+
