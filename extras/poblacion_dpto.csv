@@ -1,0 +1,528 @@
+in1,nombre,pob_total
+02001,Comuna 01,205886
+02002,Comuna 02,157932
+02003,Comuna 03,187537
+02004,Comuna 04,218245
+02005,Comuna 05,179005
+02006,Comuna 06,176076
+02007,Comuna 07,220591
+02008,Comuna 08,187237
+02009,Comuna 09,161797
+02010,Comuna 10,166022
+02011,Comuna 11,189832
+02012,Comuna 12,200116
+02013,Comuna 13,231331
+02014,Comuna 14,225970
+02015,Comuna 15,182574
+06028,Almirante Brown,552902
+06035,Avellaneda,342677
+06091,Berazategui,324244
+06260,Esteban Echeverr�a,300959
+06270,Ezeiza,163722
+06274,Florencio Varela,426005
+06371,General San Mart�n,414196
+06408,Hurlingham,181241
+06410,Ituzaing�,167824
+06412,Jos� C. Paz,265981
+06427,La Matanza,1775816
+06434,Lan�s,459263
+06490,Lomas de Zamora,616279
+06515,Malvinas Argentinas,322375
+06539,Merlo,528494
+06560,Moreno,452505
+06568,Mor�n,321109
+06658,Quilmes,582943
+06749,San Fernando,163240
+06756,San Isidro,292878
+06760,San Miguel,276190
+06805,Tigre,376381
+06840,Tres de Febrero,340071
+06861,Vicente L�pez,269420
+06007,Adolfo Alsina,17072
+06014,Adolfo Gonz�les Chaves,12047
+06021,Alberti,10654
+06042,Ayacucho,20337
+06049,Azul,65280
+06056,Bah�a Blanca,301572
+06063,Balcarce,43823
+06070,Baradero,32761
+06077,Arrecifes,29044
+06084,Benito Ju�rez,20239
+06098,Berisso,88470
+06105,Bol�var,34190
+06112,Bragado,41336
+06119,Brandsen,26367
+06126,Campana,94461
+06134,Ca�uelas,51892
+06140,Capit�n Sarmiento,14494
+06147,Carlos Casares,22237
+06154,Carlos Tejedor,11570
+06161,Carmen de Areco,14692
+06168,Castelli,8205
+06175,Col�n,24890
+06182,Coronel de Marina L. Rosales,62152
+06189,Coronel Dorrego,15825
+06196,Coronel Pringles,22933
+06203,Coronel Su�rez,38320
+06210,Chacabuco,48703
+06217,Chascom�s,42277
+06224,Chivilcoy,64185
+06231,Daireaux,16889
+06238,Dolores,27042
+06245,Ensenada,56729
+06252,Escobar,213619
+06266,Exaltaci�n de la Cruz,29805
+06277,Florentino Ameghino,8869
+06280,General Alvarado,39594
+06287,General Alvear,11130
+06294,General Arenales,14903
+06301,General Belgrano,17365
+06308,General Guido,2816
+06315,General Juan Madariaga,19747
+06322,General La Madrid,10783
+06329,General Las Heras,14889
+06336,General Lavalle,3700
+06343,General Paz,11202
+06351,General Pinto,11261
+06357,General Pueyrred�n,618989
+06364,General Rodr�guez,87185
+06385,General Viamonte,18078
+06392,General Villegas,30864
+06399,Guamin�,11826
+06406,Hip�lito Yrigoyen,9585
+06413,Jun�n,90305
+06420,La Costa,69633
+06441,La Plata,654324
+06448,Laprida,10210
+06455,Las Flores,23871
+06462,Leandro N. Alem,16799
+06469,Lincoln,41808
+06476,Lober�a,17523
+06483,Lobos,36172
+06497,Luj�n,106273
+06505,Magdalena,19301
+06511,Maip�,10188
+06518,Mar Chiquita,21279
+06525,Marcos Paz,54181
+06532,Mercedes,63284
+06547,Monte,21034
+06553,Monte Hermoso,6499
+06574,Navarro,17054
+06581,Necochea,92933
+06588,9 de Julio,47722
+06595,Olavarr�a,111708
+06602,Patagones,30207
+06609,Pehuaj�,39776
+06616,Pellegrini,5887
+06623,Pergamino,104590
+06630,Pila,3640
+06638,Pilar,299077
+06644,Pinamar,25728
+06648,Presidente Per�n,81141
+06651,Pu�n,15743
+06655,Punta Indio,9888
+06665,Ramallo,33042
+06672,Rauch,15176
+06679,Rivadavia,17143
+06686,Rojas,23432
+06693,Roque P�rez,12513
+06700,Saavedra,20749
+06707,Saladillo,32103
+06714,Salto,32653
+06721,Salliquel�,8644
+06728,San Andr�s de Giles,23027
+06735,San Antonio de Areco,23138
+06742,San Cayetano,8399
+06763,San Nicol�s,145857
+06770,San Pedro,59036
+06778,San Vicente,59478
+06784,Suipacha,10081
+06791,Tandil,123871
+06798,Tapalqu�,9178
+06812,Tordillo,1764
+06819,Tornquist,12723
+06826,Trenque Lauquen,43021
+06833,Tres Arroyos,57110
+06847,Tres Lomas,8700
+06854,25 de Mayo,35842
+06868,Villa Gesell,31730
+06875,Villarino,31014
+06882,Z�rate,114269
+10007,Ambato,4463
+10014,Ancasti,2917
+10021,Andalgal�,18132
+10028,Antofagasta de la Sierra,1436
+10035,Bel�n,27843
+10042,Capay�n,16085
+10049,Capital,159703
+10056,El Alto,3570
+10063,Fray Mamerto Esqui�,11896
+10070,La Paz,22638
+10077,Paclin,4185
+10084,Poman,10776
+10091,Santa Mar�a,22548
+10098,Santa Rosa,12034
+10105,Tinogasta,22360
+10112,Valle Viejo,27242
+14007,Calamuchita,54730
+14014,Capital,1329604
+14021,Col�n,225151
+14028,Cruz del Eje,58759
+14035,General Roca,35645
+14042,General San Mart�n,127454
+14049,Ischil�n,31312
+14056,Ju�rez Celman,61078
+14063,Marcos Ju�rez,104205
+14070,Minas,4727
+14077,Pocho,5380
+14084,Presidente Roque S�enz Pe�a,36282
+14091,Punilla,178401
+14098,R�o Cuarto,246393
+14105,R�o Primero,46675
+14112,R�o Seco,13242
+14119,R�o Segundo,103718
+14126,San Alberto,37004
+14133,San Javier,53520
+14140,San Justo,206307
+14147,Santa Mar�a,98188
+14154,Sobremonte,4591
+14161,Tercero Arriba,109554
+14168,Totoral,18556
+14175,Tulumba,12673
+14182,Uni�n,105727
+18007,Bella Vista,37181
+18014,Ber�n de Astrada,2461
+18021,Capital,358223
+18028,Concepci�n,21113
+18035,Curuz� Cuati�,44384
+18042,Empedrado,15109
+18049,Esquina,30802
+18056,General Alvear,7926
+18063,General Paz,14836
+18070,Goya,89959
+18077,Itat�,9171
+18084,Ituzaing�,31150
+18091,Lavalle,28759
+18098,Mburucuy�,9252
+18105,Mercedes,40667
+18112,Monte Caseros,36338
+18119,Paso de los Libres,48642
+18126,Saladas,22244
+18133,San Cosme,14381
+18140,San Luis del Palmar,17590
+18147,San Mart�n,13140
+18154,San Miguel,10572
+18161,San Roque,18366
+18168,Santo Tom�,61297
+18175,Sauce,9032
+22007,Almirante Brown,34075
+22014,Bermejo,25052
+22021,Comandante Fern�ndez,96944
+22028,Chacabuco,30590
+22036,12 de Octubre,22281
+22039,2 de Abril,7432
+22043,Fray Justo Santa Mar�a de Oro,11826
+22049,General Belgrano,11988
+22056,General Donovan,13490
+22063,General G�emes,67132
+22070,Independencia,22411
+22077,Libertad,12158
+22084,Libertador General San Mart�n,59147
+22091,Maip�,25288
+22098,Mayor Luis J. Fontana,55080
+22105,9 de Julio,28555
+22112,O'Higgins,20131
+22119,Presidencia de la Plaza,12499
+22126,1�  de Mayo,10322
+22133,Quitilipi,34081
+22140,San Fernando,390874
+22147,San Lorenzo,14702
+22154,Sargento Cabral,15889
+22161,Tapenag�,4097
+22168,25 de Mayo,29215
+26007,Biedma,82883
+26014,Cushamen,20919
+26021,Escalante,186583
+26028,Florentino Ameghino,1627
+26035,Futaleuf�,43076
+26042,Gaiman,11141
+26049,Gastre,1427
+26056,Langui�eo,3085
+26063,Martires,778
+26070,Paso de los Indios,1867
+26077,Rawson,131313
+26084,R�o Senguer,5979
+26091,Sarmiento,11396
+26098,Tehuelches,5390
+26105,Telsen,1644
+30008,Col�n,62160
+30015,Concordia,170033
+30021,Diamante,46361
+30028,Federaci�n,68736
+30035,Federal,25863
+30042,Feliciano,15079
+30049,Gualeguay,51883
+30056,Gualeguaych�,109461
+30063,Islas del Ibicuy,12077
+30070,La Paz,66903
+30077,Nogoya,39026
+30084,Paran�,339930
+30088,San Salvador,17357
+30091,Tala,25665
+30098,Uruguay,100728
+30105,Victoria,35767
+30113,Villaguay,48965
+34007,Bermejo,14046
+34014,Formosa,234354
+34021,Laishi,17063
+34028,Matacos,14375
+34035,Pati�o,68581
+34042,Pilag�s,18399
+34049,Pilcomayo,85024
+34056,Pirane,64566
+34063,Ram�n Lista,13754
+38007,Cochinoca,12656
+38014,El Carmen,97039
+38021,Dr. Manuel Belgrano,265249
+38028,Humahuaca,17366
+38035,Ledesma,81790
+38042,Palpal�,52631
+38049,Rinconada,2488
+38056,San Antonio,4466
+38063,San Pedro,75037
+38070,Santa B�rbara,17730
+38077,Santa Catalina,2800
+38084,Susques,3791
+38094,Tilcara,12349
+38098,Tumbaya,4658
+38105,Valle Grande,2451
+38112,Yav�,20806
+42007,Atreuco,10153
+42014,Caleu Caleu,2313
+42021,Capital,105312
+42028,Catril�,7293
+42035,Conhelo,14077
+42042,Curac�,1040
+42049,Chalileo,2985
+42056,Chapaleuf�,11620
+42063,Chical C�,1502
+42070,Guatrach�,8831
+42077,Hucal,7540
+42084,Lihuel Calel,439
+42091,Limay Mahuida,503
+42098,Loventu�,8619
+42105,Marac�,59024
+42112,Puel�n,9468
+42119,Quem� Quem�,8663
+42126,Rancul,10668
+42133,Realic�,16227
+42140,Toay,12409
+42147,Trenel,5426
+42154,Utrac�n,14839
+46007,Arauco,15418
+46014,Capital,180995
+46021,Castro Barros,4268
+46028,Coronel Felipe Varela,9648
+46035,Chamical,14160
+46042,Chilecito,49432
+46049,Famatina,5863
+46056,General Angel V. Pe�aloza,3073
+46063,General Belgrano,7370
+46070,General Juan F.Quiroga,4108
+46077,General Lamadrid,1734
+46084,General Ocampo,7145
+46091,General San Mart�n,4944
+46098,Vinchina,2731
+46105,Independencia,2427
+46112,Rosario Vera Pe�aloza,14054
+46119,San Blas de los Sauces,3927
+46126,Sanagasta,2345
+50007,Capital,115041
+50014,General Alvear,46429
+50021,Godoy Cruz,191903
+50028,Guaymall�n,283803
+50035,Jun�n,37859
+50042,La Paz,10012
+50049,Las Heras,203666
+50056,Lavalle,36738
+50063,Luj�n de Cuyo,119888
+50070,Maip�,172332
+50077,Malarg�e,27660
+50084,Rivadavia,56373
+50091,San Carlos,32631
+50098,San Mart�n,118220
+50105,San Rafael,188018
+50112,Santa Rosa,16374
+50119,Tunuy�n,49458
+50126,Tupungato,32524
+54007,Ap�stoles,42249
+54014,Caingu�s,53403
+54021,Candelaria,27040
+54028,Capital,324756
+54035,Concepci�n,9577
+54042,El Dorado,78221
+54049,General Manuel Belgrano,42902
+54056,Guaran�,67897
+54063,Iguaz�,82227
+54070,Leandro N. Alem,45075
+54077,Libertador General San Mart�n,46561
+54084,Montecarlo,36745
+54091,Ober�,107501
+54098,San Ignacio,57728
+54105,San Javier,20906
+54112,San Pedro,31051
+54119,25 de Mayo,27754
+58007,Alumin�,8306
+58014,A�elo,10786
+58021,Catan Lil,2155
+58028,Coll�n Cur�,4532
+58035,Confluencia,362673
+58042,Chos Malal,15256
+58049,Huiliches,14725
+58056,Lacar,29748
+58063,Loncopu�,6925
+58070,Los Lagos,11998
+58077,Minas,7234
+58084,�orqu�n,4692
+58091,Pehuenches,24087
+58098,Pic�n Leuf�,4578
+58105,Picunches,7022
+58112,Zapala,36549
+62007,Adolfo Alsina,57678
+62014,Avellaneda,35323
+62021,Bariloche,133500
+62028,Conesa,7069
+62035,El Cuy,5280
+62042,General Roca,320921
+62049,9 de Julio,3475
+62056,�orquinco,1736
+62063,Pichi Mahu�da,14107
+62070,Pilnaniyeu,7428
+62077,San Antonio,29284
+62084,Valcheta,7101
+62091,25 de Mayo,15743
+66007,Anta,57411
+66014,Cachi,7315
+66021,Cafayate,14850
+66028,Capital,536113
+66035,Cerrillos,35789
+66042,Chicoana,20710
+66049,General G�emes,47226
+66056,General Jos� de San Mart�n,156910
+66063,Guachipas,3187
+66070,Iruya,5987
+66077,La Caldera,7763
+66084,La Candelaria,5704
+66091,La Poma,1738
+66098,La Vi�a,7435
+66105,Los Andes,6050
+66112,Met�n,40351
+66119,Molinos,5652
+66126,Or�n,138838
+66133,Rivadavia,30357
+66140,Rosario de la Frontera,28993
+66147,Rosario de Lerma,38702
+66154,San Carlos,7016
+66161,Santa Victoria,10344
+70007,Albard�n,23888
+70014,Angaco,8125
+70021,Calingasta,8588
+70028,Capital,109123
+70035,Caucete,38343
+70042,Chimbas,87258
+70049,Iglesia,9099
+70056,J�chal,21730
+70063,9 de julio,9307
+70070,Pocito,53162
+70077,Rawson,114368
+70084,Rivadavia,82641
+70091,San Mart�n,11115
+70098,Santa Luc�a,48087
+70105,Sarmiento,22131
+70112,Ullum,4886
+70119,Valle F�rtil,7222
+70126,25 de Mayo,17119
+70133,Zonda,4863
+74007,Ayacucho,19087
+74014,Belgrano,3985
+74021,Coronel Pringles,13157
+74028,Chacabuco,20744
+74035,General Pedernera,125899
+74042,Gobernador Dupuy,11779
+74049,Jun�n,28933
+74056,La Capital,204019
+74063,Libertador General San Mart�n,4707
+78007,Corpen Aike,11093
+78014,Deseado,107630
+78021,G�er Aike,113267
+78028,Lago Argentino,18864
+78035,Lago Buenos Aires,8750
+78042,Magallanes,9202
+78049,R�o Chico,5158
+82007,Belgrano,44788
+82014,Caseros,82100
+82021,Castellanos,178092
+82028,Constituci�n,86910
+82035,Garay,20890
+82042,General L�pez,191024
+82049,General Obligado,176410
+82056,Iriondo,66675
+82063,La Capital,525093
+82070,Las Colonias,104946
+82077,9 de Julio,29832
+82084,Rosario,1193605
+82091,San Cristobal,68878
+82098,San Javier,30959
+82105,San Jer�nimo,80840
+82112,San Justo,40904
+82119,San Lorenzo,157255
+82126,San Mart�n,63842
+82133,Vera,51494
+86007,Aguirre,7610
+86014,Alberdi,17252
+86021,Atamisqui,10923
+86028,Avellaneda,20763
+86035,Banda,142279
+86042,Belgrano,9243
+86049,Capital,267125
+86056,Copo,31404
+86063,Choya,34667
+86070,Figueroa,17820
+86077,General Taboada,38105
+86084,Guasay�n,7602
+86091,Jim�nez,14352
+86098,Juan F. Ibarra,18051
+86105,Loreto,20036
+86112,Mitre,1890
+86119,Moreno,32130
+86126,Ojo de agua,14008
+86133,Pelegrini,20514
+86140,Quebrachos,10568
+86147,R�o Hondo,54867
+86154,Rivadavia,5015
+86161,Robles,44415
+86168,Salavina,11217
+86175,San Mart�n,9831
+86182,Sarmiento,4607
+86189,Sil�pica,7712
+90007,Burruyac�,36951
+90014,Cruz Alta,180499
+90021,Chicligasta,80735
+90028,Famall�,34542
+90035,Graneros,13551
+90042,Juan B. Alberdi,30237
+90049,La Cocha,19002
+90056,Leales,54949
+90063,Lules,68474
+90070,Monteros,63641
+90077,R�o Chico,56847
+90084,Capital,548866
+90091,Simoca,30876
+90098,Taf� del Valle,14933
+90105,Taf� Viejo,121638
+90112,Trancas,17371
+90119,Yerba Buena,75076
+94007,R�o Grande,70042
+94014,Ushuaia,56956
+94021,Islas del Atl�ntico sur,17
+94028,Ant�rtida Argentina,190
