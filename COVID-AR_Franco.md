@@ -81,3 +81,42 @@ Podemos ver a simple vista en la curva de contagiados del COVID-19 que en genera
 ![fallecidos-edad-sexo](https://imgur.com/l02GsBk.png)
 
 Como veniamos viendo en el histograma anterior, a simple vista en la siguiente curva de fallecidos por COVID-19 afecta mas a la población masculina que a la femenina. En porcentaje tenemos que el **56.96%** de la poblacion afectada por el COVID-19 es masculina y el **43.04%** es femenina.
+
+## Diferencia entre datasets Ministerio de Salud vs. COVID Stats AR
+
+En esta sección se hará una comparación de los [datos del ministerio de salud de argentina](http://datos.salud.gob.ar/dataset/covid-19-casos-registrados-en-la-republica-argentina) y los [datos de COVID Stats AR](https://covidstats.com.ar/exportar). Los link a los datos se encuentran hipervinculados en azul.
+
+El dataset del ministerio de la nación no se encuentra preprocesado. Son los datos en bruto y para trabajar con ellos hay que hacer transformación en el mismo. El dataset contiene 25 columnas y 1841199 entradas, al 25/09, la cual cada una corresponde al paciente diagnosticado, tenga o no confirmación de COVID. El mismo pesa 351.2 MB, un dataset pesado.
+
+Los datos obtenidos de COVID Stats Ar se encuentran trabajados. Toman los datos del ministerio de salud, los procesan y los transforman. Nos entregan los datos masticados y ordenados, directo para juegar con ellos y obtener visualizaciones. El dataset es mucho mas liviano, 19.0 KB, y de facil manipular. Tiene 9 columnas y 269 entradas que corresponden al dia del año (DoY).
+
+Cabe destacar rapidamente que el dataset obtenido de COVID Stats Ar en realidad es solo uno de los tantos que se puede descargar ya que se cuenta con filtros para obtener los datasets tratados.
+
+### Comparando datos
+
+Para terminar con la comparación de los datos del Ministerio de Salud y COVID Stats Ar veamos como se encuentran distribuidos los mismos en función de la fecha, mes a mes.
+
+Para empezar veamos como se encuentran distribuidos los datos de contagiados con un **scatter plot**.
+
+![contagiados](https://imgur.com/nhM4hVQ.png)
+
+Los datos en el scatter plot son de la transformación hecha por nosotros con los datos en bruto del ministerio de salud. Superpongamos los datos de COVID Stats AR en un sólo scatter.
+
+#### Confimados vs Confirmados FIS
+
+![confirmados-casos_fis](https://imgur.com/tHv4gy3.png)
+
+En el siguiente scatter podemos ver los datos ya procesados por COVID Stats respecto al procesamiento hecho por nosotros de los datos en bruto del ministerio. Podemos ver una distribución de contagiados en rojo y azul. La distribución de los datos en rojo corresponde a los casos por fecha de inicio de síntomas.
+
+#### Confimados vs Confirmados FA
+
+![confirmados-casos_fa](https://imgur.com/LApzL7U.png)
+
+En el siguiente scatter tenemos lo mismo de antes pero amarillo y azul. La distribución de los datos en amarillo corresponde a los casos por fecha de apertura. Esta es la distribución de datos que corresponde al día en que se cargó en la base de datos.
+
+#### Confimados vs Confirmados FIS ajustada
+
+![confirmados-casos_fis_ajustada](https://imgur.com/nWVIneS.png)
+
+Veamos ahora la distribución en verde y azul. La distribución de los datos en verde corresponde a los casos por fecha de inicio de síntomas ajustada. Es similar a los casos fis, pero como algunos en la base de datos del ministerio de salud hay datos nulos, casos no la tienen a esta fecha. Lo que hicieron en COVID Stats es ajustarlos con la siguiente formula simple **FIS_ajustada = FA - 4**, porque 4 días es el promedio entre FIS y FA para los que la tienen.
+
