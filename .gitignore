@@ -2,10 +2,12 @@
 
 # files
 /configurate_env.txt
-/requirements.txt
+/COVID-AR_Franco.md
+
 
 # folder
 /datasetsCovid
 /.vscode
+/.ipynb_checkpoints
 
 
